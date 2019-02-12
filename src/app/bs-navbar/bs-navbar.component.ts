@@ -9,8 +9,6 @@ import { AuthService } from '../auth.service';
 export class BsNavbarComponent {
 
   constructor(public auth: AuthService) { 
-    //afAuth.authState.subscribe(user => this.user=user);
-    
   }
   
   logout(){
